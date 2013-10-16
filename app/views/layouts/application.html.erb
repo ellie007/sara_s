@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SaraStibitz</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="header">
+<h2>SARA STIBITZ</h2>
+<h3>Civil Rights Mediation Consulting</h3>
+</div>
+
+<div class="phone_no">
+ <h4>TEL: (612) 483-7936</h4>
+</div>
+
+
+<div class="navbar">
+<ul>
+<li class="navbar_inner">Home</li>
+<li class="navbar_inner">Mediation Services</li>
+<li class="navbar_inner">Profile</li>
+<li class="navbar_inner"><%= link_to "Contact", contact_url %></li>
+</ul>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
