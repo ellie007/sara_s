@@ -9,22 +9,12 @@
 <body>
 
 <div class="header">
-<h2>SARA STIBITZ</h2>
-<h3>Civil Rights Mediation Consulting</h3>
-</div>
+    <div class="header_title"><p><%= image_tag "wwf-logo-design.jpg" %></p>
 
-<div class="phone_no">
- <h4>TEL: (612) 483-7936</h4>
-</div>
+    <div class="header_title"><h1 class="header">SARA STIBITZ</h1> <h3>Civil Rights Mediation Consulting</h3></div>
 
+    <div class="phone_no"><h3>TEL: (612) 483-7936</h3></div>
 
-<div class="navbar">
-<ul>
-<li class="navbar_inner">Home</li>
-<li class="navbar_inner">Mediation Services</li>
-<li class="navbar_inner">Profile</li>
-<li class="navbar_inner"><%= link_to "Contact", contact_url %></li>
-</ul>
 </div>
 
 <%= yield %>
