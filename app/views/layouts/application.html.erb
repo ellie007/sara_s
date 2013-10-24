@@ -9,12 +9,11 @@
 <body>
 
 <div class="header">
-    <div class="header_title"><p><%= image_tag "wwf-logo-design.jpg" %></p>
-
-    <div class="header_title"><h1 class="header">SARA STIBITZ</h1> <h3>Civil Rights Mediation Consulting</h3></div>
-
+    <div class="header_title">
+      <p><%= image_tag "wwf-logo-design.jpg", :class => "panda"  %></p>
+      <p class="header">SARA STIBITZ <span class="biz_type">Civil Rights Mediation Consulting</span></p>
+    </div>
     <div class="phone_no"><h3>TEL: (612) 483-7936</h3></div>
-
 </div>
 
 <%= yield %>
