@@ -9,7 +9,7 @@ group :production do
 end
 
 # Use sqlite3 as the database for Active Record
-group :developement do
+group :development do
   gem 'sqlite3'
 end
 
