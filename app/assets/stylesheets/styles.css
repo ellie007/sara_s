@@ -12,7 +12,7 @@
 }
 
 .biz_type{
-  font-size:15px;
+  font-size:14px;
   font-weight:100;
   color:#867C77;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -20,7 +20,7 @@
 
 .phone_no{
   float: right;
-  padding-right: 230px;
+  padding-right: 200px;
   padding-top: 50px;
   color:#867C77;
   font-family: Garamond, "Times New Roman", serif;
@@ -36,6 +36,7 @@
   width:20%;
   height:600px;
   float: left;
+  margin-top:20px;
 }
 
 .navbar_inner{
@@ -50,7 +51,7 @@
   float: left;
   clear: both;
   padding-left: 150px;
-  padding-top:20px;
+  margin-top:40px;
 }
 
 .panda{
@@ -60,12 +61,14 @@
 .main-content{
   float:left;
   width:30%;
+  font-size: 14px;
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color:#867C77;
   border-left:1px solid gray;
   border-right:1px solid gray;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top:20px;
 }
 
 .footer{
@@ -74,4 +77,27 @@
   text-align: center;
   padding-top: 20px;
   color:#867C77;
+  font-family: Garamond, "Times New Roman", serif;
+}
+
+a:link{
+  color:#B45340;
+  text-decoration: none;
+  color:#B45340;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#B45340;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#B45340;
+  text-decoration: none;
+}
+
+a:active{
+  color:#B45340;
+  text-decoration: none;
 }
